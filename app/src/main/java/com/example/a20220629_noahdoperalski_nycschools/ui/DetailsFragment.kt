@@ -49,6 +49,8 @@ class DetailsFragment : Fragment() {
                         {
                             tvDetailsNumTakers.text = item.num_of_sat_test_takers
                             tvDetailsWriting.text = item.sat_writing_avg_score
+                            tvDetailsMath.text = item.sat_math_avg_score
+                            tvDetailsReading.text = item.sat_critical_reading_avg_score
                         }
                     }
                 }
